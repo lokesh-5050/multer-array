@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="all">
+        <a href="/">HomePage</a>
+        All uploaded files
+       <% if(allFiles.length > 0){%>
+        <% allFiles.forEach(function (file) {%>
+            <img src="./viaMulter/<%= file.imageName %> " alt="" style="width: 12vw;height: 20vw;display: flex;gap: 2vw;">
+            <a href="/delete/<%= file._id %> ">delete</a>
+            
+        <%}) %> 
+       <%} %>  
+    </div>
+    <style>
+        .all{
+            display: flex;
+            background-color: plum;
+        }
+
+    </style>
+</body>
+</html>

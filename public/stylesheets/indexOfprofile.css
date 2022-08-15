@@ -1,0 +1,419 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: product sans;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 0 4vw;
+
+}
+
+#nav {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nlef {
+    width: 17%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.ncir {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1vw;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ncir i {
+    font-size: 2vw;
+    color: #fff;
+}
+
+#srch {
+    width: 20%;
+    height: 55%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(100, 100, 100, 0.137);
+    border-radius: 4px;
+}
+
+#srch input {
+    width: 93%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1vw;
+}
+
+#nref {
+    display: flex;
+    width: 40%;
+    /* background-color: violet; */
+    align-items: center;
+    margin-right: 5vw;
+}
+
+#nref h4 {
+    font-size: 1vw;
+    margin-right: 5vw;
+    white-space: nowrap;
+
+}
+
+.msg {
+    display: flex;
+    width: 15%;
+    /* background-color: red; */
+    position: relative;
+}
+
+.msgCount {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(104, 211, 253, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 115%;
+    margin-top: 0.1vw;
+    color: rgb(0, 183, 255);
+
+}
+
+.ncontact {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    /* background-color: red; */
+    margin-left: 8vw;
+    align-items: center;
+}
+
+.ncontact h4 {
+    white-space: nowrap;
+}
+
+.ndp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: yellow; */
+    margin-left: -5vw;
+
+}
+
+.ndp img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+#centre {
+    width: 100%;
+    bottom: 0%;
+    height: 90%;
+    /* position: absolute;   */
+    /* bottom: 0%; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+
+}
+
+#c-lef {
+    width: 30%;
+    height: 100%;
+    /* background-color: palegreen; */
+    padding: 2vw 4vw;
+}
+
+#big-dp {
+    width: 100%;
+    height: 40%;
+    background-color: #fff;
+}
+
+#big-dp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#c-lef h6 {
+    margin-top: 2vw;
+    color: rgba(128, 128, 128, 0.911);
+}
+
+.work-hist {
+    width: 70%;
+    height: 13%;
+    /* background-color: palevioletred; */
+    margin-top: 2vw;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.primary {
+    width: 30%;
+    height: 35%;
+    background-color: rgba(123, 193, 250, 0.534);
+    color: rgb(0, 183, 255);
+    font-size: 0.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.2vw;
+
+}
+
+#address {
+    margin-top: 0.4vw;
+    color: rgb(170, 170, 170);
+}
+
+.skills {
+    margin-top: 1vw;
+}
+
+
+
+
+
+
+
+
+#c-ref {
+    width: 70%;
+    height: 100%;
+    /* background-color: palevioletred; */
+    padding: 2vw 1vw;
+}
+
+
+
+
+#name-line {
+    width: 100%;
+    height: 10%;
+    /* background-color: blueviolet; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-lef {
+    width: 45%;
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    margin-left: 1vw;
+}
+
+.bookmark {
+    width: 12%;
+    display: flex;
+    /* background-color: green; */
+}
+
+.bookmark i {
+    margin-right: 1vw;
+}
+
+.whoIsHe {
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.whoIsHe h6 {
+    font-size: 1.2vw;
+    color: rgb(44, 193, 252);
+}
+
+.rankings {
+    width: 30%;
+    height: 10%;
+    /* background-color: brown; */
+    margin-top: 2vw;
+}
+
+.rankings h3 {
+    margin-top: 0.6vw;
+}
+
+.rankings h3 span {
+    margin-right: 0.5vw;
+}
+
+.rankings h3 i {
+    color: rgb(51, 196, 253);
+}
+
+.sendMsg {
+    width: 50%;
+    height: 7%;
+    /* background-color: rgb(148, 41, 41); */
+    /* margin-top: 1vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3vw;
+    color: #000;
+}
+
+.msgp1 {
+    width: 28%;
+    height: 100%;
+    white-space: nowrap;
+    display: flex;
+    /* background-color: yellow; */
+    align-items: center;
+}
+
+.msgp1 h4 {
+    font-size: 1vw;
+    margin-left: 0.5vw;
+    color: #000;
+}
+
+.msgp2 {
+    width: 30%;
+    height: 90%;
+    border-radius: 3px;
+    background-color: rgba(123, 202, 255, 0.897);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.msgp2 i {
+    margin-right: 0.5vw;
+}
+
+.msgp2 h4 {
+    font-size: 1vw;
+    color: skyblue;
+}
+
+.sendMsg h4 {
+    font-size: 1vw;
+    color: #000;
+}
+
+#report {
+    color: grey;
+}
+
+#timeline {
+    width: 100%;
+    /* background-color: yellow; */
+    height: 7%;
+    margin-top: 1vw;
+    display: flex;
+    border-bottom: 0.8px solid rgba(143, 143, 143, 0.247);
+}
+
+.t-lef {
+    width: 10%;
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.t-lef i {
+    margin-right: 0.6vw;
+
+}
+
+#t-ref {
+    margin-left: 1.5vw;
+}
+
+#cont-info {
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(144, 236, 122); */
+    margin-top: 2vw;
+}
+
+.phoneNo {
+    width: 20%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1vw;
+
+}
+
+#nmber {
+    color: rgb(46, 196, 255);
+    margin-left: -2vw;
+}
+
+#add {
+    margin-top: 1vw;
+    width: 24%;
+}
+
+#cont-info h6 {
+    margin-top: 2vw;
+    font-size: 0.7vw;
+    color: grey;
+
+}
+
+#basic {
+    font-size: 0.7vw;
+    color: grey;
+}
+#bday{
+    width: 20%;
+}
+#gender{
+    margin-top: -0.4vw;
+    width: 14.5%;
+}

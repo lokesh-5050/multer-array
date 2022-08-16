@@ -12,9 +12,11 @@
         All uploaded files
        <% if(allFiles.length > 0){%>
         <% allFiles.forEach(function (file) {%>
-            <img src="./viaMulter/<%= file.imageName %> " alt="" style="width: 12vw;height: 20vw;display: flex;gap: 2vw;">
-            <a href="/delete/<%= file._id %> ">delete</a>
-            
+            <% if(file.imageName.split(".")[1] === mp4){%>
+                <video src="./viaMulter/<%= file.imageName %>  " controls autoplay loop muted style="width: 30vw;"></video>
+            <%}else {%>
+                <img src="./viaMultr/<%= file.imageName %> " style="width: 20vw;" alt="">
+            <%} %> 
         <%}) %> 
        <%} %>  
     </div>

@@ -20,17 +20,7 @@ const storage = multer.diskStorage({
 })
 
 const upload = multer({
-  storage:storage,
-  fileFilter:(req,file,cb) =>{
-    if(file.mimetype.split("/")[1] === "jpg" || "jpeg" || "png" || "webp"){
-      cb(null , true)
-    }else{
-      cb(null , false , new Error("nooo"))
-    }
-    
-
-  }
- 
+  storage:storage
 })
 
 const GOOGLE_CLIENT_ID = "184644567601-712m204ljidhmliomk42a9deq45h7i4k.apps.googleusercontent.com";

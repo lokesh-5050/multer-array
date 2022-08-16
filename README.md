@@ -6,7 +6,7 @@ use-  npm i nodemon
 install all dependencies 
 use - npm i
 
-This code consist of multer functionality by .single() method
+This code consist of multer functionality by .array() method
 soon i'll commit changes and add more methods
 
 Ejs files are used
